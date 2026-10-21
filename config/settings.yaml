@@ -76,6 +76,9 @@ signals:
   llm:
     enabled_if_key: true      # LLM classifier runs only when LLM_API_KEY is set
     min_confidence: 0.6
+    endpoint: https://llm.example.com/v1/complete   # PLACEHOLDER completion endpoint
+    timeout_seconds: 20
+    max_doc_chars: 4000       # document text sent to the LLM is truncated to this
 
 scoring:
   half_life_days: 21
