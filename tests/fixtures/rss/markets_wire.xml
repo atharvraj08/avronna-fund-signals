@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Markets Wire</title>
+    <link>https://marketswire.example.com</link>
+    <description>Markets Wire (fixture feed)</description>
+    <item>
+      <title>Jump Trading builds new microwave link between Chicago and New Jersey</title>
+      <link>https://marketswire.example.com/jump-microwave-link-chicago-new-jersey</link>
+      <guid>https://marketswire.example.com/jump-microwave-link-chicago-new-jersey</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0000</pubDate>
+      <description>Jump Trading is building a new microwave network connecting the CME data center in Aurora to equity exchanges in New Jersey, shaving microseconds off its round trip, filings show.</description>
+    </item>
+    <item>
+      <title>Jump Trading hires former Nvidia executive as chief technology officer</title>
+      <link>https://marketswire.example.com/jump-hires-former-nvidia-executive-cto</link>
+      <guid>https://marketswire.example.com/jump-hires-former-nvidia-executive-cto</guid>
+      <pubDate>Sat, 17 Oct 2026 11:00:00 +0000</pubDate>
+      <description>Jump Trading has appointed a former Nvidia vice president of GPU architecture as its new chief technology officer, the firm said on Monday. The hire follows a push into custom hardware.</description>
+    </item>
+    <item>
+      <title>Citadel Securities expands colocation footprint at NYSE Mahwah</title>
+      <link>https://marketswire.example.com/citadel-securities-colocation-mahwah</link>
+      <guid>https://marketswire.example.com/citadel-securities-colocation-mahwah</guid>
+      <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
+      <description>Citadel Securities has expanded its colocation footprint at the NYSE data center in Mahwah and added new cross-connects, as market makers race to cut latency.</description>
+    </item>
+    <item>
+      <title>Optiver names former Intel VP as head of hardware engineering</title>
+      <link>https://marketswire.example.com/optiver-names-former-intel-vp-head-of-hardware</link>
+      <guid>https://marketswire.example.com/optiver-names-former-intel-vp-head-of-hardware</guid>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Optiver has named a former Intel vice president of semiconductor design as head of hardware engineering, a newly created role.</description>
+    </item>
+    <item>
+      <title>Millennium Management launches new systematic quant strategy</title>
+      <link>https://marketswire.example.com/millennium-launches-systematic-pod</link>
+      <guid>https://marketswire.example.com/millennium-launches-systematic-pod</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Millennium Management has launched a new systematic quant strategy team focused on high-frequency futures trading.</description>
+    </item>
+    <item>
+      <title>Bridgewater Associates names new head of people</title>
+      <link>https://marketswire.example.com/bridgewater-names-new-head-of-people</link>
+      <guid>https://marketswire.example.com/bridgewater-names-new-head-of-people</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Bridgewater Associates has named a new head of people and culture, the firm said in a memo to staff.</description>
+    </item>
+    <item>
+      <title>Point72 founder buys painting at record auction</title>
+      <link>https://marketswire.example.com/point72-founder-art-auction</link>
+      <guid>https://marketswire.example.com/point72-founder-art-auction</guid>
+      <pubDate>Sun, 11 Oct 2026 09:00:00 +0000</pubDate>
+      <description>The founder of Point72 Asset Management bought a painting at a record-setting auction in New York this week.</description>
+    </item>
+    <item>
+      <title>Renaissance Technologies institutional fund posts gains</title>
+      <link>https://marketswire.example.com/renaissance-technologies-fund-returns</link>
+      <guid>https://marketswire.example.com/renaissance-technologies-fund-returns</guid>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Renaissance Technologies&#x27; institutional equities fund posted gains in September, according to a letter to investors.</description>
+    </item>
+    <item>
+      <title>Man Group CEO says fee pressure is easing</title>
+      <link>https://marketswire.example.com/man-group-ceo-on-fees</link>
+      <guid>https://marketswire.example.com/man-group-ceo-on-fees</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Man Group&#x27;s chief executive said fee pressure across the hedge fund industry is easing as investors return to multi-strategy funds.</description>
+    </item>
+    <item>
+      <title>The Citadel military college welcomes record class of cadets</title>
+      <link>https://marketswire.example.com/the-citadel-military-college-cadets</link>
+      <guid>https://marketswire.example.com/the-citadel-military-college-cadets</guid>
+      <pubDate>Sat, 10 Oct 2026 09:00:00 +0000</pubDate>
+      <description>The Citadel, the military college of South Carolina in Charleston, welcomed a record class of cadets this fall, and announced a new engineering building.</description>
+    </item>
+    <item>
+      <title>Chip stocks jump as trading volumes surge</title>
+      <link>https://marketswire.example.com/chip-stocks-jump-on-earnings</link>
+      <guid>https://marketswire.example.com/chip-stocks-jump-on-earnings</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Semiconductor stocks jump after strong earnings, as trading volumes surge and GPU demand stays high. Investors expect data center buildout to continue.</description>
+    </item>
+    <item>
+      <title>New cafe opens on Jane Street in the West Village</title>
+      <link>https://marketswire.example.com/west-village-jane-street-cafe</link>
+      <guid>https://marketswire.example.com/west-village-jane-street-cafe</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0000</pubDate>
+      <description>A new cafe has opened at the corner of Jane Street and Hudson Street in Manhattan&#x27;s West Village, drawing long lines on its first weekend.</description>
+    </item>
+    <item>
+      <title>Virtus Investment Partners reports quarterly results</title>
+      <link>https://marketswire.example.com/virtus-investment-partners-results</link>
+      <guid>https://marketswire.example.com/virtus-investment-partners-results</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Virtus Investment Partners, the asset manager, reported quarterly results and said it is investing in low-latency trading infrastructure for its ETFs.</description>
+    </item>
+  </channel>
+</rss>

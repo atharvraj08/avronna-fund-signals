@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7001001,
+      "title": "FPGA Engineer - Trading Systems",
+      "absolute_url": "https://boards.greenhouse.io/hudsonrivertrading/jobs/7001001",
+      "updated_at": "2026-10-14T13:00:00+00:00",
+      "location": {
+        "name": "New York"
+      },
+      "content": "&lt;p&gt;Hudson River Trading is hiring an FPGA Engineer to design and verify low-latency trading logic in Verilog and SystemVerilog. You will work on hardware acceleration of our order entry path and market data feed handlers.&lt;/p&gt;"
+    },
+    {
+      "id": 7001002,
+      "title": "Low Latency C++ Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/hudsonrivertrading/jobs/7001002",
+      "updated_at": "2026-10-12T15:30:00+00:00",
+      "location": {
+        "name": "New York"
+      },
+      "content": "&lt;p&gt;HRT seeks a low-latency C++ engineer to optimize our trading systems down to the nanosecond. Experience with kernel bypass, lock-free data structures and cache-aware programming is a plus.&lt;/p&gt;"
+    }
+  ],
+  "meta": {
+    "total": 2
+  }
+}

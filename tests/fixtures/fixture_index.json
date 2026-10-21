@@ -1,0 +1,431 @@
+{
+  "week_of": "2026-10-19",
+  "since": "2026-07-21",
+  "fetched_at": "2026-10-19T06:00:00+00:00",
+  "expected_top5_contains": [
+    "hrt",
+    "jump",
+    "two_sigma"
+  ],
+  "expected_absent_from_ranking": [
+    "bridgewater",
+    "point72",
+    "aqr",
+    "renaissance",
+    "man_group",
+    "virtu",
+    "citadel"
+  ],
+  "items": [
+    {
+      "key": "hrt_fpga_job",
+      "doc_id": "e9b1477a0f1b2c2f",
+      "url": "https://boards.greenhouse.io/hudsonrivertrading/jobs/7001001",
+      "source": "greenhouse:hudsonrivertrading",
+      "category": "positive",
+      "expected_fund_id": "hrt",
+      "expected_signals": [
+        "fpga_hiring"
+      ]
+    },
+    {
+      "key": "hrt_cpp_job",
+      "doc_id": "1d8104b332757df3",
+      "url": "https://boards.greenhouse.io/hudsonrivertrading/jobs/7001002",
+      "source": "greenhouse:hudsonrivertrading",
+      "category": "positive",
+      "expected_fund_id": "hrt",
+      "expected_signals": [
+        "low_latency_hiring"
+      ]
+    },
+    {
+      "key": "hrt_gpu_news",
+      "doc_id": "ba87e2c5936601ac",
+      "url": "https://quantnews.example.com/2026/10/hrt-gpu-cluster",
+      "source": "rss:quant_news",
+      "category": "positive",
+      "expected_fund_id": "hrt",
+      "expected_signals": [
+        "gpu_buildout"
+      ]
+    },
+    {
+      "key": "jump_asic_job",
+      "doc_id": "c383bcec6f0557d3",
+      "url": "https://boards.greenhouse.io/jumptrading/jobs/7002001",
+      "source": "greenhouse:jumptrading",
+      "category": "positive",
+      "expected_fund_id": "jump",
+      "expected_signals": [
+        "fpga_hiring"
+      ]
+    },
+    {
+      "key": "jump_microwave_news",
+      "doc_id": "e3496b707cd4d22c",
+      "url": "https://marketswire.example.com/jump-microwave-link-chicago-new-jersey",
+      "source": "rss:markets_wire",
+      "category": "positive",
+      "expected_fund_id": "jump",
+      "expected_signals": [
+        "colocation_or_network"
+      ]
+    },
+    {
+      "key": "jump_cto_news",
+      "doc_id": "a9f71193168b48c0",
+      "url": "https://marketswire.example.com/jump-hires-former-nvidia-executive-cto",
+      "source": "rss:markets_wire",
+      "category": "positive",
+      "expected_fund_id": "jump",
+      "expected_signals": [
+        "hardware_leadership_hire"
+      ]
+    },
+    {
+      "key": "twosigma_hwaccel_job",
+      "doc_id": "e2c5fcb0504971e5",
+      "url": "https://boards.greenhouse.io/twosigma/jobs/7003001",
+      "source": "greenhouse:twosigma",
+      "category": "positive",
+      "expected_fund_id": "two_sigma",
+      "expected_signals": [
+        "fpga_hiring"
+      ]
+    },
+    {
+      "key": "twosigma_latency_news",
+      "doc_id": "a38a4b0d61fbb28c",
+      "url": "https://quantnews.example.com/2026/10/two-sigma-cto-inference-latency",
+      "source": "rss:quant_news",
+      "category": "positive",
+      "expected_fund_id": "two_sigma",
+      "expected_signals": [
+        "latency_statement"
+      ]
+    },
+    {
+      "key": "twosigma_gpu_news",
+      "doc_id": "0e207eaad396b0f4",
+      "url": "https://techwire.example.com/two-sigma-10000-gpu-cluster",
+      "source": "rss:tech_wire",
+      "category": "positive",
+      "expected_fund_id": "two_sigma",
+      "expected_signals": [
+        "gpu_buildout"
+      ]
+    },
+    {
+      "key": "xtx_cpp_job",
+      "doc_id": "4d368fa5ec790aca",
+      "url": "https://jobs.lever.co/xtxmarkets/a1b2c3d4-0001",
+      "source": "lever:xtxmarkets",
+      "category": "positive",
+      "expected_fund_id": "xtx",
+      "expected_signals": [
+        "low_latency_hiring"
+      ]
+    },
+    {
+      "key": "xtx_gpu_news",
+      "doc_id": "bf2502424c8fcae0",
+      "url": "https://techwire.example.com/xtx-markets-finland-gpu-data-center",
+      "source": "rss:tech_wire",
+      "category": "positive",
+      "expected_fund_id": "xtx",
+      "expected_signals": [
+        "gpu_buildout"
+      ]
+    },
+    {
+      "key": "citsec_colo_news",
+      "doc_id": "4ec88edd097531dd",
+      "url": "https://marketswire.example.com/citadel-securities-colocation-mahwah",
+      "source": "rss:markets_wire",
+      "category": "positive",
+      "expected_fund_id": "citadel_securities",
+      "expected_signals": [
+        "colocation_or_network"
+      ]
+    },
+    {
+      "key": "citsec_fpga_job",
+      "doc_id": "1b35f8859a26814c",
+      "url": "https://boards.greenhouse.io/citadelsecurities/jobs/7004001",
+      "source": "greenhouse:citadelsecurities",
+      "category": "positive",
+      "expected_fund_id": "citadel_securities",
+      "expected_signals": [
+        "fpga_hiring"
+      ]
+    },
+    {
+      "key": "janestreet_strategy_news",
+      "doc_id": "a3bc7100e77fcce8",
+      "url": "https://quantnews.example.com/2026/10/jane-street-ml-strategy",
+      "source": "rss:quant_news",
+      "category": "positive",
+      "expected_fund_id": "jane_street",
+      "expected_signals": [
+        "new_quant_strategy"
+      ]
+    },
+    {
+      "key": "janestreet_fpga_job",
+      "doc_id": "86054d07d6ab4a5f",
+      "url": "https://boards.greenhouse.io/janestreet/jobs/7005001",
+      "source": "greenhouse:janestreet",
+      "category": "positive",
+      "expected_fund_id": "jane_street",
+      "expected_signals": [
+        "fpga_hiring"
+      ]
+    },
+    {
+      "key": "optiver_hire_news",
+      "doc_id": "fd746a74db1fe2dc",
+      "url": "https://marketswire.example.com/optiver-names-former-intel-vp-head-of-hardware",
+      "source": "rss:markets_wire",
+      "category": "positive",
+      "expected_fund_id": "optiver",
+      "expected_signals": [
+        "hardware_leadership_hire"
+      ]
+    },
+    {
+      "key": "drw_compute_news",
+      "doc_id": "72b60c4ac14df964",
+      "url": "https://quantnews.example.com/2026/10/drw-compute-constraints",
+      "source": "rss:quant_news",
+      "category": "positive",
+      "expected_fund_id": "drw",
+      "expected_signals": [
+        "latency_statement"
+      ]
+    },
+    {
+      "key": "millennium_strategy_news",
+      "doc_id": "2bffba6ced3235f8",
+      "url": "https://marketswire.example.com/millennium-launches-systematic-pod",
+      "source": "rss:markets_wire",
+      "category": "positive",
+      "expected_fund_id": "millennium",
+      "expected_signals": [
+        "new_quant_strategy"
+      ]
+    },
+    {
+      "key": "tower_fpga_old_news",
+      "doc_id": "1740c48e329fa3be",
+      "url": "https://quantnews.example.com/2026/08/tower-research-fpga-team",
+      "source": "rss:quant_news",
+      "category": "positive",
+      "expected_fund_id": "tower",
+      "expected_signals": [
+        "fpga_hiring"
+      ],
+      "note": "older signal, should decay"
+    },
+    {
+      "key": "dup_jump_microwave_same_url",
+      "doc_id": "e3496b707cd4d22c",
+      "url": "https://marketswire.example.com/jump-microwave-link-chicago-new-jersey",
+      "source": "rss:syndication",
+      "category": "duplicate",
+      "expected_fund_id": "jump",
+      "expected_signals": [
+        "colocation_or_network"
+      ],
+      "duplicate_of": "jump_microwave_news"
+    },
+    {
+      "key": "dup_twosigma_gpu_syndicated",
+      "doc_id": "f1b5134060a75756",
+      "url": "https://syndicate.example.com/feeds/2026/10/09/two-sigma-gpu",
+      "source": "rss:syndication",
+      "category": "duplicate",
+      "expected_fund_id": "two_sigma",
+      "expected_signals": [
+        "gpu_buildout"
+      ],
+      "duplicate_of": "twosigma_gpu_news"
+    },
+    {
+      "key": "dup_hrt_fpga_job_in_rss",
+      "doc_id": "e9b1477a0f1b2c2f",
+      "url": "https://boards.greenhouse.io/hudsonrivertrading/jobs/7001001",
+      "source": "rss:syndication",
+      "category": "duplicate",
+      "expected_fund_id": "hrt",
+      "expected_signals": [
+        "fpga_hiring"
+      ],
+      "duplicate_of": "hrt_fpga_job"
+    },
+    {
+      "key": "bridgewater_hr_news",
+      "doc_id": "a4287db6e905bbd8",
+      "url": "https://marketswire.example.com/bridgewater-names-new-head-of-people",
+      "source": "rss:markets_wire",
+      "category": "negative",
+      "expected_fund_id": "bridgewater",
+      "expected_signals": []
+    },
+    {
+      "key": "point72_art_news",
+      "doc_id": "6ebbbab5efdb1cd0",
+      "url": "https://marketswire.example.com/point72-founder-art-auction",
+      "source": "rss:markets_wire",
+      "category": "negative",
+      "expected_fund_id": "point72",
+      "expected_signals": []
+    },
+    {
+      "key": "aqr_research_news",
+      "doc_id": "19cc93a9b20387e7",
+      "url": "https://quantnews.example.com/2026/10/aqr-value-factor-paper",
+      "source": "rss:quant_news",
+      "category": "negative",
+      "expected_fund_id": "aqr",
+      "expected_signals": []
+    },
+    {
+      "key": "rentech_returns_news",
+      "doc_id": "6765ba0196815d42",
+      "url": "https://marketswire.example.com/renaissance-technologies-fund-returns",
+      "source": "rss:markets_wire",
+      "category": "negative",
+      "expected_fund_id": "renaissance",
+      "expected_signals": []
+    },
+    {
+      "key": "man_fees_news",
+      "doc_id": "c4fcedd8f10bb5f7",
+      "url": "https://marketswire.example.com/man-group-ceo-on-fees",
+      "source": "rss:markets_wire",
+      "category": "negative",
+      "expected_fund_id": "man_group",
+      "expected_signals": []
+    },
+    {
+      "key": "bridgewater_recruiter_job",
+      "doc_id": "7da44c63c06f475b",
+      "url": "https://boards.greenhouse.io/bridgewater/jobs/7006001",
+      "source": "greenhouse:bridgewater",
+      "category": "negative",
+      "expected_fund_id": "bridgewater",
+      "expected_signals": []
+    },
+    {
+      "key": "twosigma_marketing_job",
+      "doc_id": "60c65542770b7fba",
+      "url": "https://boards.greenhouse.io/twosigma/jobs/7003002",
+      "source": "greenhouse:twosigma",
+      "category": "negative",
+      "expected_fund_id": "two_sigma",
+      "expected_signals": []
+    },
+    {
+      "key": "optiver_podcast_news",
+      "doc_id": "0dba190832d7ced6",
+      "url": "https://quantnews.example.com/2026/10/optiver-trader-podcast",
+      "source": "rss:quant_news",
+      "category": "negative",
+      "expected_fund_id": "optiver",
+      "expected_signals": []
+    },
+    {
+      "key": "amd_fpga_news",
+      "doc_id": "e72784d68f23a5e2",
+      "url": "https://techwire.example.com/amd-unveils-new-fpga-family",
+      "source": "rss:tech_wire",
+      "category": "negative",
+      "expected_fund_id": null,
+      "expected_signals": []
+    },
+    {
+      "key": "acme_fpga_news",
+      "doc_id": "93ca3d0127f5500a",
+      "url": "https://techwire.example.com/acme-robotics-hiring-fpga-engineers",
+      "source": "rss:tech_wire",
+      "category": "negative",
+      "expected_fund_id": null,
+      "expected_signals": []
+    },
+    {
+      "key": "meta_gpu_news",
+      "doc_id": "097594626e22ee0b",
+      "url": "https://techwire.example.com/meta-new-gpu-cluster",
+      "source": "rss:tech_wire",
+      "category": "negative",
+      "expected_fund_id": null,
+      "expected_signals": []
+    },
+    {
+      "key": "trap_two_sigma_event",
+      "doc_id": "bc6bc10568af3b80",
+      "url": "https://techwire.example.com/why-a-two-sigma-event-is-not-rare",
+      "source": "rss:tech_wire",
+      "category": "trap",
+      "expected_fund_id": null,
+      "expected_signals": []
+    },
+    {
+      "key": "trap_citadel_college",
+      "doc_id": "4ae679c4df1e49c3",
+      "url": "https://marketswire.example.com/the-citadel-military-college-cadets",
+      "source": "rss:markets_wire",
+      "category": "trap",
+      "expected_fund_id": null,
+      "expected_signals": []
+    },
+    {
+      "key": "trap_stocks_jump",
+      "doc_id": "7b709805818ac416",
+      "url": "https://marketswire.example.com/chip-stocks-jump-on-earnings",
+      "source": "rss:markets_wire",
+      "category": "trap",
+      "expected_fund_id": null,
+      "expected_signals": []
+    },
+    {
+      "key": "trap_jane_street_road",
+      "doc_id": "3b4acb537e38b660",
+      "url": "https://marketswire.example.com/west-village-jane-street-cafe",
+      "source": "rss:markets_wire",
+      "category": "trap",
+      "expected_fund_id": null,
+      "expected_signals": []
+    },
+    {
+      "key": "trap_millennium_falcon",
+      "doc_id": "c99e066c35e191fe",
+      "url": "https://techwire.example.com/millennium-falcon-lego-set",
+      "source": "rss:tech_wire",
+      "category": "trap",
+      "expected_fund_id": null,
+      "expected_signals": []
+    },
+    {
+      "key": "trap_virtus",
+      "doc_id": "5bb540009214e6b9",
+      "url": "https://marketswire.example.com/virtus-investment-partners-results",
+      "source": "rss:markets_wire",
+      "category": "trap",
+      "expected_fund_id": null,
+      "expected_signals": []
+    },
+    {
+      "key": "old_jump_2025_news",
+      "doc_id": "9d1fc9b000c1c5ab",
+      "url": "https://quantnews.example.com/2025/03/jump-fpga",
+      "source": "rss:quant_news",
+      "category": "out_of_window",
+      "expected_fund_id": "jump",
+      "expected_signals": [
+        "fpga_hiring"
+      ]
+    }
+  ]
+}

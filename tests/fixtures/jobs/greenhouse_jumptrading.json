@@ -1,0 +1,17 @@
+{
+  "jobs": [
+    {
+      "id": 7002001,
+      "title": "ASIC Design Engineer",
+      "absolute_url": "https://boards.greenhouse.io/jumptrading/jobs/7002001",
+      "updated_at": "2026-10-15T10:00:00+00:00",
+      "location": {
+        "name": "New York"
+      },
+      "content": "&lt;p&gt;Jump Trading is looking for an ASIC design engineer with deep RTL experience in Verilog/VHDL to build custom silicon for ultra-low-latency trading. Tape-out experience preferred.&lt;/p&gt;"
+    }
+  ],
+  "meta": {
+    "total": 1
+  }
+}

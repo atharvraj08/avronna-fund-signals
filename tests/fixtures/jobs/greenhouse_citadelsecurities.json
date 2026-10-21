@@ -1,0 +1,17 @@
+{
+  "jobs": [
+    {
+      "id": 7004001,
+      "title": "FPGA Engineer - Market Making",
+      "absolute_url": "https://boards.greenhouse.io/citadelsecurities/jobs/7004001",
+      "updated_at": "2026-10-13T12:00:00+00:00",
+      "location": {
+        "name": "New York"
+      },
+      "content": "&lt;p&gt;Citadel Securities is seeking an FPGA engineer to develop ultra-low-latency trading systems in Verilog. Experience with timing closure on Xilinx or Intel FPGAs required.&lt;/p&gt;"
+    }
+  ],
+  "meta": {
+    "total": 1
+  }
+}

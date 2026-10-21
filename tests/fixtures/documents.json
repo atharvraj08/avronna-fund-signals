@@ -1,0 +1,402 @@
+[
+  {
+    "id": "e9b1477a0f1b2c2f",
+    "source": "greenhouse:hudsonrivertrading",
+    "source_type": "job",
+    "url": "https://boards.greenhouse.io/hudsonrivertrading/jobs/7001001",
+    "title": "FPGA Engineer - Trading Systems",
+    "text": "Hudson River Trading is hiring an FPGA Engineer to design and verify low-latency trading logic in Verilog and SystemVerilog. You will work on hardware acceleration of our order entry path and market data feed handlers.",
+    "published_at": "2026-10-14T13:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "1d8104b332757df3",
+    "source": "greenhouse:hudsonrivertrading",
+    "source_type": "job",
+    "url": "https://boards.greenhouse.io/hudsonrivertrading/jobs/7001002",
+    "title": "Low Latency C++ Software Engineer",
+    "text": "HRT seeks a low-latency C++ engineer to optimize our trading systems down to the nanosecond. Experience with kernel bypass, lock-free data structures and cache-aware programming is a plus.",
+    "published_at": "2026-10-12T15:30:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "ba87e2c5936601ac",
+    "source": "rss:quant_news",
+    "source_type": "news",
+    "url": "https://quantnews.example.com/2026/10/hrt-gpu-cluster",
+    "title": "Hudson River Trading doubles its GPU cluster for model training",
+    "text": "Hudson River Trading has expanded its GPU cluster to more than 4,000 Nvidia H200 GPUs, according to people familiar with the buildout. The firm said training time for its deep learning models had become a bottleneck.",
+    "published_at": "2026-10-16T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "c383bcec6f0557d3",
+    "source": "greenhouse:jumptrading",
+    "source_type": "job",
+    "url": "https://boards.greenhouse.io/jumptrading/jobs/7002001",
+    "title": "ASIC Design Engineer",
+    "text": "Jump Trading is looking for an ASIC design engineer with deep RTL experience in Verilog/VHDL to build custom silicon for ultra-low-latency trading. Tape-out experience preferred.",
+    "published_at": "2026-10-15T10:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "e3496b707cd4d22c",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/jump-microwave-link-chicago-new-jersey",
+    "title": "Jump Trading builds new microwave link between Chicago and New Jersey",
+    "text": "Jump Trading is building a new microwave network connecting the CME data center in Aurora to equity exchanges in New Jersey, shaving microseconds off its round trip, filings show.",
+    "published_at": "2026-10-13T08:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "a9f71193168b48c0",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/jump-hires-former-nvidia-executive-cto",
+    "title": "Jump Trading hires former Nvidia executive as chief technology officer",
+    "text": "Jump Trading has appointed a former Nvidia vice president of GPU architecture as its new chief technology officer, the firm said on Monday. The hire follows a push into custom hardware.",
+    "published_at": "2026-10-17T11:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "e2c5fcb0504971e5",
+    "source": "greenhouse:twosigma",
+    "source_type": "job",
+    "url": "https://boards.greenhouse.io/twosigma/jobs/7003001",
+    "title": "Hardware Acceleration Engineer",
+    "text": "Two Sigma is hiring a hardware acceleration engineer to move model inference onto FPGAs. You will write HLS and Verilog and partner with our modeling teams.",
+    "published_at": "2026-10-11T14:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "a38a4b0d61fbb28c",
+    "source": "rss:quant_news",
+    "source_type": "news",
+    "url": "https://quantnews.example.com/2026/10/two-sigma-cto-inference-latency",
+    "title": "Two Sigma CTO says inference latency is now the firm's biggest constraint",
+    "text": "Speaking at a conference, Two Sigma's chief technology officer said inference latency is now the biggest constraint on the firm's models, and that general-purpose CPUs can no longer keep up with the models researchers want to deploy.",
+    "published_at": "2026-10-15T16:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "0e207eaad396b0f4",
+    "source": "rss:tech_wire",
+    "source_type": "news",
+    "url": "https://techwire.example.com/two-sigma-10000-gpu-cluster",
+    "title": "Two Sigma deploys 10,000-GPU cluster in new data center",
+    "text": "Two Sigma Investments has deployed a 10,000-GPU cluster in a new data center in New Jersey to train larger forecasting models.",
+    "published_at": "2026-10-09T12:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "4d368fa5ec790aca",
+    "source": "lever:xtxmarkets",
+    "source_type": "job",
+    "url": "https://jobs.lever.co/xtxmarkets/a1b2c3d4-0001",
+    "title": "Low Latency C++ Developer",
+    "text": "XTX Markets is hiring a low-latency C++ developer to work on our execution platform. Strong knowledge of modern C++, Linux performance tuning and networking.",
+    "published_at": "2026-10-10T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "bf2502424c8fcae0",
+    "source": "rss:tech_wire",
+    "source_type": "news",
+    "url": "https://techwire.example.com/xtx-markets-finland-gpu-data-center",
+    "title": "XTX Markets expands Finnish data center with thousands of new GPUs",
+    "text": "XTX Markets is expanding its data center in Finland with thousands of additional GPUs to support its machine learning research, the company said.",
+    "published_at": "2026-10-08T10:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "4ec88edd097531dd",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/citadel-securities-colocation-mahwah",
+    "title": "Citadel Securities expands colocation footprint at NYSE Mahwah",
+    "text": "Citadel Securities has expanded its colocation footprint at the NYSE data center in Mahwah and added new cross-connects, as market makers race to cut latency.",
+    "published_at": "2026-10-14T07:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "1b35f8859a26814c",
+    "source": "greenhouse:citadelsecurities",
+    "source_type": "job",
+    "url": "https://boards.greenhouse.io/citadelsecurities/jobs/7004001",
+    "title": "FPGA Engineer - Market Making",
+    "text": "Citadel Securities is seeking an FPGA engineer to develop ultra-low-latency trading systems in Verilog. Experience with timing closure on Xilinx or Intel FPGAs required.",
+    "published_at": "2026-10-13T12:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "a3bc7100e77fcce8",
+    "source": "rss:quant_news",
+    "source_type": "news",
+    "url": "https://quantnews.example.com/2026/10/jane-street-ml-strategy",
+    "title": "Jane Street launches new machine learning trading strategy",
+    "text": "Jane Street has launched a new machine learning driven trading strategy in options markets, staffing a team of researchers to run it.",
+    "published_at": "2026-10-12T10:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "86054d07d6ab4a5f",
+    "source": "greenhouse:janestreet",
+    "source_type": "job",
+    "url": "https://boards.greenhouse.io/janestreet/jobs/7005001",
+    "title": "FPGA Engineer",
+    "text": "Jane Street is hiring FPGA engineers to build hardware for low-latency trading. We write our FPGA designs in Hardcaml and care about every nanosecond.",
+    "published_at": "2026-10-07T13:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "fd746a74db1fe2dc",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/optiver-names-former-intel-vp-head-of-hardware",
+    "title": "Optiver names former Intel VP as head of hardware engineering",
+    "text": "Optiver has named a former Intel vice president of semiconductor design as head of hardware engineering, a newly created role.",
+    "published_at": "2026-10-06T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "72b60c4ac14df964",
+    "source": "rss:quant_news",
+    "source_type": "news",
+    "url": "https://quantnews.example.com/2026/10/drw-compute-constraints",
+    "title": "DRW says compute constraints are limiting its models",
+    "text": "DRW's head of research said compute constraints are limiting the size of models the firm can run in production, and that it is evaluating custom hardware.",
+    "published_at": "2026-10-05T15:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "2bffba6ced3235f8",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/millennium-launches-systematic-pod",
+    "title": "Millennium Management launches new systematic quant strategy",
+    "text": "Millennium Management has launched a new systematic quant strategy team focused on high-frequency futures trading.",
+    "published_at": "2026-10-02T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "1740c48e329fa3be",
+    "source": "rss:quant_news",
+    "source_type": "news",
+    "url": "https://quantnews.example.com/2026/08/tower-research-fpga-team",
+    "title": "Tower Research Capital builds out FPGA team",
+    "text": "Tower Research Capital is hiring FPGA engineers to expand its hardware acceleration team in New York.",
+    "published_at": "2026-08-05T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "e3496b707cd4d22c",
+    "source": "rss:syndication",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/jump-microwave-link-chicago-new-jersey",
+    "title": "Jump Trading builds new microwave link between Chicago and New Jersey",
+    "text": "Jump Trading is building a new microwave network connecting the CME data center in Aurora to equity exchanges in New Jersey, shaving microseconds off its round trip, filings show.",
+    "published_at": "2026-10-13T08:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "f1b5134060a75756",
+    "source": "rss:syndication",
+    "source_type": "news",
+    "url": "https://syndicate.example.com/feeds/2026/10/09/two-sigma-gpu",
+    "title": "Two Sigma Deploys 10,000-GPU Cluster in New Data Center",
+    "text": "Two Sigma Investments has deployed a 10,000-GPU cluster in a new data center in New Jersey to train larger forecasting models.",
+    "published_at": "2026-10-09T13:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "e9b1477a0f1b2c2f",
+    "source": "rss:syndication",
+    "source_type": "job",
+    "url": "https://boards.greenhouse.io/hudsonrivertrading/jobs/7001001",
+    "title": "FPGA Engineer - Trading Systems",
+    "text": "Hudson River Trading is hiring an FPGA Engineer to design and verify low-latency trading logic in Verilog and SystemVerilog.",
+    "published_at": "2026-10-14T13:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "a4287db6e905bbd8",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/bridgewater-names-new-head-of-people",
+    "title": "Bridgewater Associates names new head of people",
+    "text": "Bridgewater Associates has named a new head of people and culture, the firm said in a memo to staff.",
+    "published_at": "2026-10-12T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "6ebbbab5efdb1cd0",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/point72-founder-art-auction",
+    "title": "Point72 founder buys painting at record auction",
+    "text": "The founder of Point72 Asset Management bought a painting at a record-setting auction in New York this week.",
+    "published_at": "2026-10-11T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "19cc93a9b20387e7",
+    "source": "rss:quant_news",
+    "source_type": "news",
+    "url": "https://quantnews.example.com/2026/10/aqr-value-factor-paper",
+    "title": "AQR Capital Management publishes paper defending the value factor",
+    "text": "AQR Capital Management published a new research paper arguing that the value factor remains attractive after a decade of underperformance.",
+    "published_at": "2026-10-10T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "6765ba0196815d42",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/renaissance-technologies-fund-returns",
+    "title": "Renaissance Technologies institutional fund posts gains",
+    "text": "Renaissance Technologies' institutional equities fund posted gains in September, according to a letter to investors.",
+    "published_at": "2026-10-09T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "c4fcedd8f10bb5f7",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/man-group-ceo-on-fees",
+    "title": "Man Group CEO says fee pressure is easing",
+    "text": "Man Group's chief executive said fee pressure across the hedge fund industry is easing as investors return to multi-strategy funds.",
+    "published_at": "2026-10-08T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "7da44c63c06f475b",
+    "source": "greenhouse:bridgewater",
+    "source_type": "job",
+    "url": "https://boards.greenhouse.io/bridgewater/jobs/7006001",
+    "title": "Campus Recruiter",
+    "text": "Bridgewater Associates is hiring a campus recruiter to manage university relationships and coordinate interview events.",
+    "published_at": "2026-10-13T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "60c65542770b7fba",
+    "source": "greenhouse:twosigma",
+    "source_type": "job",
+    "url": "https://boards.greenhouse.io/twosigma/jobs/7003002",
+    "title": "Marketing Manager",
+    "text": "Two Sigma is hiring a marketing manager to lead brand campaigns and events.",
+    "published_at": "2026-10-12T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "0dba190832d7ced6",
+    "source": "rss:quant_news",
+    "source_type": "news",
+    "url": "https://quantnews.example.com/2026/10/optiver-trader-podcast",
+    "title": "Optiver trader talks poker and probability on podcast",
+    "text": "An Optiver trader discussed poker, probability and career advice for graduates on a popular finance podcast.",
+    "published_at": "2026-10-07T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "e72784d68f23a5e2",
+    "source": "rss:tech_wire",
+    "source_type": "news",
+    "url": "https://techwire.example.com/amd-unveils-new-fpga-family",
+    "title": "AMD unveils new FPGA family for data centers",
+    "text": "AMD unveiled a new family of FPGAs aimed at low-latency networking and AI inference in data centers.",
+    "published_at": "2026-10-14T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "93ca3d0127f5500a",
+    "source": "rss:tech_wire",
+    "source_type": "news",
+    "url": "https://techwire.example.com/acme-robotics-hiring-fpga-engineers",
+    "title": "Acme Robotics is hiring FPGA engineers for its new lidar",
+    "text": "Acme Robotics is hiring FPGA engineers with Verilog experience to build the processing pipeline for its new lidar sensor.",
+    "published_at": "2026-10-13T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "097594626e22ee0b",
+    "source": "rss:tech_wire",
+    "source_type": "news",
+    "url": "https://techwire.example.com/meta-new-gpu-cluster",
+    "title": "Meta brings new 100,000-GPU cluster online",
+    "text": "Meta said it has brought a new GPU cluster with more than 100,000 GPUs online for training large language models.",
+    "published_at": "2026-10-12T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "bc6bc10568af3b80",
+    "source": "rss:tech_wire",
+    "source_type": "news",
+    "url": "https://techwire.example.com/why-a-two-sigma-event-is-not-rare",
+    "title": "Why a two sigma event is not as rare as you think",
+    "text": "In a normal distribution a two sigma event happens about 5% of the time. A two-sigma move in a stock is therefore not unusual, and statisticians warn against reading too much into it.",
+    "published_at": "2026-10-11T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "4ae679c4df1e49c3",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/the-citadel-military-college-cadets",
+    "title": "The Citadel military college welcomes record class of cadets",
+    "text": "The Citadel, the military college of South Carolina in Charleston, welcomed a record class of cadets this fall, and announced a new engineering building.",
+    "published_at": "2026-10-10T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "7b709805818ac416",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/chip-stocks-jump-on-earnings",
+    "title": "Chip stocks jump as trading volumes surge",
+    "text": "Semiconductor stocks jump after strong earnings, as trading volumes surge and GPU demand stays high. Investors expect data center buildout to continue.",
+    "published_at": "2026-10-16T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "3b4acb537e38b660",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/west-village-jane-street-cafe",
+    "title": "New cafe opens on Jane Street in the West Village",
+    "text": "A new cafe has opened at the corner of Jane Street and Hudson Street in Manhattan's West Village, drawing long lines on its first weekend.",
+    "published_at": "2026-10-15T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "c99e066c35e191fe",
+    "source": "rss:tech_wire",
+    "source_type": "news",
+    "url": "https://techwire.example.com/millennium-falcon-lego-set",
+    "title": "Millennium Falcon Lego set returns with faster build",
+    "text": "The Millennium Falcon Lego set is back, and fans say the new version is faster to build. Retailers expect it to sell out.",
+    "published_at": "2026-10-14T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "5bb540009214e6b9",
+    "source": "rss:markets_wire",
+    "source_type": "news",
+    "url": "https://marketswire.example.com/virtus-investment-partners-results",
+    "title": "Virtus Investment Partners reports quarterly results",
+    "text": "Virtus Investment Partners, the asset manager, reported quarterly results and said it is investing in low-latency trading infrastructure for its ETFs.",
+    "published_at": "2026-10-15T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  },
+  {
+    "id": "9d1fc9b000c1c5ab",
+    "source": "rss:quant_news",
+    "source_type": "news",
+    "url": "https://quantnews.example.com/2025/03/jump-fpga",
+    "title": "Jump Trading expands FPGA research team",
+    "text": "Jump Trading is hiring FPGA engineers for its research team in Chicago.",
+    "published_at": "2025-03-01T09:00:00+00:00",
+    "fetched_at": "2026-10-19T06:00:00+00:00"
+  }
+]

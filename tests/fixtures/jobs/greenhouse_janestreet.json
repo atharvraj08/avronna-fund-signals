@@ -1,0 +1,17 @@
+{
+  "jobs": [
+    {
+      "id": 7005001,
+      "title": "FPGA Engineer",
+      "absolute_url": "https://boards.greenhouse.io/janestreet/jobs/7005001",
+      "updated_at": "2026-10-07T13:00:00+00:00",
+      "location": {
+        "name": "New York"
+      },
+      "content": "&lt;p&gt;Jane Street is hiring FPGA engineers to build hardware for low-latency trading. We write our FPGA designs in Hardcaml and care about every nanosecond.&lt;/p&gt;"
+    }
+  ],
+  "meta": {
+    "total": 1
+  }
+}

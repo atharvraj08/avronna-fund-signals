@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7003001,
+      "title": "Hardware Acceleration Engineer",
+      "absolute_url": "https://boards.greenhouse.io/twosigma/jobs/7003001",
+      "updated_at": "2026-10-11T14:00:00+00:00",
+      "location": {
+        "name": "New York"
+      },
+      "content": "&lt;p&gt;Two Sigma is hiring a hardware acceleration engineer to move model inference onto FPGAs. You will write HLS and Verilog and partner with our modeling teams.&lt;/p&gt;"
+    },
+    {
+      "id": 7003002,
+      "title": "Marketing Manager",
+      "absolute_url": "https://boards.greenhouse.io/twosigma/jobs/7003002",
+      "updated_at": "2026-10-12T09:00:00+00:00",
+      "location": {
+        "name": "New York"
+      },
+      "content": "&lt;p&gt;Two Sigma is hiring a marketing manager to lead brand campaigns and events.&lt;/p&gt;"
+    }
+  ],
+  "meta": {
+    "total": 2
+  }
+}

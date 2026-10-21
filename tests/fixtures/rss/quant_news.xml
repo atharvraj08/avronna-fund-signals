@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Quant News Daily</title>
+    <link>https://quantnews.example.com</link>
+    <description>Quant News Daily (fixture feed)</description>
+    <item>
+      <title>Hudson River Trading doubles its GPU cluster for model training</title>
+      <link>https://quantnews.example.com/2026/10/hrt-gpu-cluster</link>
+      <guid>https://quantnews.example.com/2026/10/hrt-gpu-cluster</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Hudson River Trading has expanded its GPU cluster to more than 4,000 Nvidia H200 GPUs, according to people familiar with the buildout. The firm said training time for its deep learning models had become a bottleneck.</description>
+    </item>
+    <item>
+      <title>Two Sigma CTO says inference latency is now the firm&#x27;s biggest constraint</title>
+      <link>https://quantnews.example.com/2026/10/two-sigma-cto-inference-latency</link>
+      <guid>https://quantnews.example.com/2026/10/two-sigma-cto-inference-latency</guid>
+      <pubDate>Thu, 15 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Speaking at a conference, Two Sigma&#x27;s chief technology officer said inference latency is now the biggest constraint on the firm&#x27;s models, and that general-purpose CPUs can no longer keep up with the models researchers want to deploy.</description>
+    </item>
+    <item>
+      <title>Jane Street launches new machine learning trading strategy</title>
+      <link>https://quantnews.example.com/2026/10/jane-street-ml-strategy</link>
+      <guid>https://quantnews.example.com/2026/10/jane-street-ml-strategy</guid>
+      <pubDate>Mon, 12 Oct 2026 10:00:00 +0000</pubDate>
+      <description>Jane Street has launched a new machine learning driven trading strategy in options markets, staffing a team of researchers to run it.</description>
+    </item>
+    <item>
+      <title>DRW says compute constraints are limiting its models</title>
+      <link>https://quantnews.example.com/2026/10/drw-compute-constraints</link>
+      <guid>https://quantnews.example.com/2026/10/drw-compute-constraints</guid>
+      <pubDate>Mon, 05 Oct 2026 15:00:00 +0000</pubDate>
+      <description>DRW&#x27;s head of research said compute constraints are limiting the size of models the firm can run in production, and that it is evaluating custom hardware.</description>
+    </item>
+    <item>
+      <title>Tower Research Capital builds out FPGA team</title>
+      <link>https://quantnews.example.com/2026/08/tower-research-fpga-team</link>
+      <guid>https://quantnews.example.com/2026/08/tower-research-fpga-team</guid>
+      <pubDate>Wed, 05 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Tower Research Capital is hiring FPGA engineers to expand its hardware acceleration team in New York.</description>
+    </item>
+    <item>
+      <title>AQR Capital Management publishes paper defending the value factor</title>
+      <link>https://quantnews.example.com/2026/10/aqr-value-factor-paper</link>
+      <guid>https://quantnews.example.com/2026/10/aqr-value-factor-paper</guid>
+      <pubDate>Sat, 10 Oct 2026 09:00:00 +0000</pubDate>
+      <description>AQR Capital Management published a new research paper arguing that the value factor remains attractive after a decade of underperformance.</description>
+    </item>
+    <item>
+      <title>Optiver trader talks poker and probability on podcast</title>
+      <link>https://quantnews.example.com/2026/10/optiver-trader-podcast</link>
+      <guid>https://quantnews.example.com/2026/10/optiver-trader-podcast</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0000</pubDate>
+      <description>An Optiver trader discussed poker, probability and career advice for graduates on a popular finance podcast.</description>
+    </item>
+    <item>
+      <title>Jump Trading expands FPGA research team</title>
+      <link>https://quantnews.example.com/2025/03/jump-fpga</link>
+      <guid>https://quantnews.example.com/2025/03/jump-fpga</guid>
+      <pubDate>Sat, 01 Mar 2025 09:00:00 +0000</pubDate>
+      <description>Jump Trading is hiring FPGA engineers for its research team in Chicago.</description>
+    </item>
+  </channel>
+</rss>

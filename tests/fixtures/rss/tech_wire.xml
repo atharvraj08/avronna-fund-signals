@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Tech Wire</title>
+    <link>https://techwire.example.com</link>
+    <description>Tech Wire (fixture feed)</description>
+    <item>
+      <title>Two Sigma deploys 10,000-GPU cluster in new data center</title>
+      <link>https://techwire.example.com/two-sigma-10000-gpu-cluster</link>
+      <guid>https://techwire.example.com/two-sigma-10000-gpu-cluster</guid>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Two Sigma Investments has deployed a 10,000-GPU cluster in a new data center in New Jersey to train larger forecasting models.</description>
+    </item>
+    <item>
+      <title>XTX Markets expands Finnish data center with thousands of new GPUs</title>
+      <link>https://techwire.example.com/xtx-markets-finland-gpu-data-center</link>
+      <guid>https://techwire.example.com/xtx-markets-finland-gpu-data-center</guid>
+      <pubDate>Thu, 08 Oct 2026 10:00:00 +0000</pubDate>
+      <description>XTX Markets is expanding its data center in Finland with thousands of additional GPUs to support its machine learning research, the company said.</description>
+    </item>
+    <item>
+      <title>AMD unveils new FPGA family for data centers</title>
+      <link>https://techwire.example.com/amd-unveils-new-fpga-family</link>
+      <guid>https://techwire.example.com/amd-unveils-new-fpga-family</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0000</pubDate>
+      <description>AMD unveiled a new family of FPGAs aimed at low-latency networking and AI inference in data centers.</description>
+    </item>
+    <item>
+      <title>Acme Robotics is hiring FPGA engineers for its new lidar</title>
+      <link>https://techwire.example.com/acme-robotics-hiring-fpga-engineers</link>
+      <guid>https://techwire.example.com/acme-robotics-hiring-fpga-engineers</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Acme Robotics is hiring FPGA engineers with Verilog experience to build the processing pipeline for its new lidar sensor.</description>
+    </item>
+    <item>
+      <title>Meta brings new 100,000-GPU cluster online</title>
+      <link>https://techwire.example.com/meta-new-gpu-cluster</link>
+      <guid>https://techwire.example.com/meta-new-gpu-cluster</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0000</pubDate>
+      <description>Meta said it has brought a new GPU cluster with more than 100,000 GPUs online for training large language models.</description>
+    </item>
+    <item>
+      <title>Why a two sigma event is not as rare as you think</title>
+      <link>https://techwire.example.com/why-a-two-sigma-event-is-not-rare</link>
+      <guid>https://techwire.example.com/why-a-two-sigma-event-is-not-rare</guid>
+      <pubDate>Sun, 11 Oct 2026 09:00:00 +0000</pubDate>
+      <description>In a normal distribution a two sigma event happens about 5% of the time. A two-sigma move in a stock is therefore not unusual, and statisticians warn against reading too much into it.</description>
+    </item>
+    <item>
+      <title>Millennium Falcon Lego set returns with faster build</title>
+      <link>https://techwire.example.com/millennium-falcon-lego-set</link>
+      <guid>https://techwire.example.com/millennium-falcon-lego-set</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0000</pubDate>
+      <description>The Millennium Falcon Lego set is back, and fans say the new version is faster to build. Retailers expect it to sell out.</description>
+    </item>
+  </channel>
+</rss>

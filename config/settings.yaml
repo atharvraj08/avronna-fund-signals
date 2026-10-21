@@ -1,0 +1,85 @@
+# Avronna Fund Signals configuration. Secrets live in .env, never here.
+
+run:
+  lookback_days: 90          # documents older than week_of - lookback_days are ignored
+  top_n: 25                  # funds listed in the weekly report
+  output_dir: output
+
+fund_universe_path: data/fund_universe.sample.csv   # overridden by FUND_UNIVERSE_PATH
+
+demo:
+  week_of: "2026-10-19"
+  rss_dir: tests/fixtures/rss
+  jobs_dir: tests/fixtures/jobs
+
+sources:
+  http:
+    timeout_seconds: 10
+    max_retries: 3
+    backoff_seconds: 1.0
+    min_interval_seconds: 1.0   # per-host rate limit
+    user_agent: "AvronnaFundSignals/0.1 (+placeholder-contact@example.com)"
+  # PLACEHOLDER feed URLs: replace with the feeds your team licenses or trusts.
+  rss_feeds:
+    - https://feeds.example.com/financial-news/feed-01.rss
+    - https://feeds.example.com/financial-news/feed-02.rss
+    - https://feeds.example.com/financial-news/feed-03.rss
+    - https://feeds.example.com/financial-news/feed-04.rss
+    - https://feeds.example.com/financial-news/feed-05.rss
+    - https://feeds.example.com/financial-news/feed-06.rss
+    - https://feeds.example.com/financial-news/feed-07.rss
+    - https://feeds.example.com/financial-news/feed-08.rss
+    - https://feeds.example.com/financial-news/feed-09.rss
+    - https://feeds.example.com/financial-news/feed-10.rss
+    - https://feeds.example.com/financial-news/feed-11.rss
+    - https://feeds.example.com/financial-news/feed-12.rss
+    - https://feeds.example.com/financial-news/feed-13.rss
+    - https://feeds.example.com/financial-news/feed-14.rss
+    - https://feeds.example.com/financial-news/feed-15.rss
+    - https://feeds.example.com/financial-news/feed-16.rss
+    - https://feeds.example.com/financial-news/feed-17.rss
+    - https://feeds.example.com/financial-news/feed-18.rss
+    - https://feeds.example.com/financial-news/feed-19.rss
+    - https://feeds.example.com/financial-news/feed-20.rss
+    - https://feeds.example.com/financial-news/feed-21.rss
+    - https://feeds.example.com/financial-news/feed-22.rss
+    - https://feeds.example.com/financial-news/feed-23.rss
+    - https://feeds.example.com/financial-news/feed-24.rss
+    - https://feeds.example.com/financial-news/feed-25.rss
+    - https://feeds.example.com/financial-news/feed-26.rss
+    - https://feeds.example.com/financial-news/feed-27.rss
+    - https://feeds.example.com/financial-news/feed-28.rss
+    - https://feeds.example.com/financial-news/feed-29.rss
+    - https://feeds.example.com/financial-news/feed-30.rss
+    - https://feeds.example.com/financial-news/feed-31.rss
+    - https://feeds.example.com/financial-news/feed-32.rss
+  greenhouse_boards:          # Greenhouse board tokens for funds in the universe
+    hrt: hudsonrivertrading
+    jump: jumptrading
+    two_sigma: twosigma
+    citadel_securities: citadelsecurities
+    jane_street: janestreet
+    bridgewater: bridgewater
+  lever_boards:               # Lever company slugs
+    xtx: xtxmarkets
+
+entities:
+  fuzzy_threshold: 0.90       # minimum confidence (0-1) to keep a FundMatch
+
+signals:
+  max_snippet_chars: 300
+  llm:
+    enabled_if_key: true      # LLM classifier runs only when LLM_API_KEY is set
+    min_confidence: 0.6
+
+scoring:
+  half_life_days: 21
+  max_signals_per_story: 1    # near-identical signals from one story count once
+  weights:
+    fpga_hiring: 3.0
+    hardware_leadership_hire: 3.0
+    gpu_buildout: 2.5
+    latency_statement: 2.5
+    low_latency_hiring: 2.0
+    colocation_or_network: 2.0
+    new_quant_strategy: 1.0

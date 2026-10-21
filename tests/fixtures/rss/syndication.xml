@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Syndicated Finance Feed</title>
+    <link>https://syndicate.example.com</link>
+    <description>Syndicated Finance Feed (fixture feed)</description>
+    <item>
+      <title>Jump Trading builds new microwave link between Chicago and New Jersey</title>
+      <link>https://marketswire.example.com/jump-microwave-link-chicago-new-jersey</link>
+      <guid>https://marketswire.example.com/jump-microwave-link-chicago-new-jersey</guid>
+      <pubDate>Tue, 13 Oct 2026 08:00:00 +0000</pubDate>
+      <description>Jump Trading is building a new microwave network connecting the CME data center in Aurora to equity exchanges in New Jersey, shaving microseconds off its round trip, filings show.</description>
+    </item>
+    <item>
+      <title>Two Sigma Deploys 10,000-GPU Cluster in New Data Center</title>
+      <link>https://syndicate.example.com/feeds/2026/10/09/two-sigma-gpu</link>
+      <guid>https://syndicate.example.com/feeds/2026/10/09/two-sigma-gpu</guid>
+      <pubDate>Fri, 09 Oct 2026 13:00:00 +0000</pubDate>
+      <description>Two Sigma Investments has deployed a 10,000-GPU cluster in a new data center in New Jersey to train larger forecasting models.</description>
+    </item>
+    <item>
+      <title>FPGA Engineer - Trading Systems</title>
+      <link>https://boards.greenhouse.io/hudsonrivertrading/jobs/7001001</link>
+      <guid>https://boards.greenhouse.io/hudsonrivertrading/jobs/7001001</guid>
+      <pubDate>Wed, 14 Oct 2026 13:00:00 +0000</pubDate>
+      <description>Hudson River Trading is hiring an FPGA Engineer to design and verify low-latency trading logic in Verilog and SystemVerilog.</description>
+    </item>
+  </channel>
+</rss>
