@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Avronna Fund Signals: week of {{ week_of }}</title>
+<style>
+body { font-family: system-ui, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; }
+.fund { border-top: 1px solid #ddd; padding: 0.5rem 0; }
+.why { color: #444; }
+.type { font-family: monospace; background: #f2f2f2; padding: 0 0.3rem; }
+</style>
+</head>
+<body>
+<h1>Avronna Fund Signals: week of {{ week_of }}</h1>
+<p>{{ funds | length }} funds ranked from {{ signal_total }} signals.</p>
+{% if not funds %}
+<p><em>No funds showed compute-bottleneck signals this week.</em></p>
+{% endif %}
+{% for f in funds %}
+<section class="fund">
+<h2>{{ f.rank }}. {{ f.fund_name }} <small>(score {{ "%.2f" | format(f.score) }}, {{ f.signal_count }} signals)</small></h2>
+<p class="why"><strong>Why:</strong> {{ f.why }}</p>
+<ul>
+{% for s in f.top %}
+<li><span class="type">{{ s.type }}</span> {{ s.date }}: {{ s.snippet }} <a href="{{ s.url }}">source</a></li>
+{% endfor %}
+</ul>
+</section>
+{% endfor %}
+</body>
+</html>

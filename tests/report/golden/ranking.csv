@@ -1,0 +1,4 @@
+rank,fund_id,fund_name,score,signal_count,why,top_source_url
+1,hrt,Hudson River Trading,7.1235,4,Hiring FPGA engineers; Hiring low-latency engineers; GPU cluster buildout,https://boards.greenhouse.io/hrt/jobs/1
+2,xtx,XTX Markets,2.3750,1,GPU cluster buildout,https://news.example.com/xtx-(gpu)
+3,jump,Jump Trading,1.2500,1,Public statements on latency limits,https://news.example.com/jump
