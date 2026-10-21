@@ -59,7 +59,9 @@ def run_pipeline(
     universe = load_universe(resolve_path(universe_path))
     fund_names = {f.fund_id: f.name for f in universe}
 
-    documents = collect_documents(build_sources(settings, env, demo=demo), since)
+    # Demo mode pins fetched_at to the fixture capture time so runs are reproducible.
+    clock = (lambda: datetime(2026, 10, 19, 6, 0, tzinfo=UTC)) if demo else None
+    documents = collect_documents(build_sources(settings, env, demo=demo, clock=clock), since)
     log.info("collected %d documents since %s", len(documents), since.date())
 
     threshold = float(settings.get("entities", {}).get("fuzzy_threshold", 0.9))
