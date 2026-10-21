@@ -1,0 +1,18 @@
+# Avronna Fund Signals: week of {{ week_of }}
+
+Funds whose public activity suggests CPU/GPU speed limits their models.
+{{ funds | length }} funds ranked from {{ signal_total }} signals.
+
+{% if not funds %}
+_No funds showed compute-bottleneck signals this week._
+{% endif %}
+{% for f in funds %}
+## {{ f.rank }}. {{ f.fund_name }} (score {{ "%.2f" | format(f.score) }})
+
+**Why:** {{ f.why }} ({{ f.signal_count }} signals)
+
+{% for s in f.top %}
+- **{{ s.type }}** ({{ s.date }}): {{ s.md_snippet }} [source]({{ s.md_url }})
+{% endfor %}
+
+{% endfor %}
