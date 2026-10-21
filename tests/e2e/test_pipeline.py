@@ -87,6 +87,19 @@ def test_documents_are_deduplicated(result):
     assert len(ids) == len(set(ids))
 
 
+def test_duplicate_stories_not_double_counted(result):
+    by_key = {i["key"]: i for i in INDEX["items"]}
+    top = {s.fund_id: {sig.doc_id for sig in s.top_signals} for s in result.scores}
+    for item in INDEX["items"]:
+        if item["category"] != "duplicate":
+            continue
+        original = by_key[item["duplicate_of"]]
+        if original["doc_id"] == item["doc_id"]:
+            continue  # same URL: collapsed at the document level
+        counted = top.get(item["expected_fund_id"], set())
+        assert not {original["doc_id"], item["doc_id"]} <= counted, item["key"]
+
+
 def test_no_signals_from_negative_trap_or_stale_docs(result):
     bad = [s for s in result.signals if s.doc_id in NO_SIGNAL_DOC_IDS]
     assert not bad, [(s.fund_id, s.doc_id, s.signal_type) for s in bad]
