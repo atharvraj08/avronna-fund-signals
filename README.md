@@ -2,19 +2,18 @@
 
 ## What it does
 
-A prototype built for **Avronna, Inc.** that produces a weekly ranked list of hedge funds and prop
+A prototype built for Avronna that produces a weekly ranked list of hedge funds and prop
 trading firms showing signs that CPU/GPU speed is limiting their models: FPGA/ASIC hiring, GPU
-cluster buildouts, colocation and microwave links, hardware leadership hires, and public statements
-about latency. Every fund in the list comes with its evidence (source URL, date, and a short verbatim
+cluster buildouts, colocation and microwave links, hardware leadership hires, and public statements about latency. Every fund in the list comes with its evidence (source URL, date, and a short verbatim
 snippet), so Avronna's sales team can find the funds most likely to need custom low-latency chips.
 
 ## How it works
 
-1. **Sources**: pull news (RSS, news API), job posts (Greenhouse, Lever, paid jobs API) and your in-house scraper into one document list, deduped and date-filtered.
-2. **Fund matching**: find which funds in the universe each document is about (exact, alias and fuzzy matching, with guards against look-alikes such as "two sigma event" or The Citadel college).
-3. **Signal detection**: keyword/regex rules (always on) plus an optional LLM classifier tag each matched document with typed signals and a verbatim evidence snippet.
-4. **Scoring**: score = sum of (signal weight × strength × recency decay), with near-duplicate stories counted once and deterministic tie-breaks.
-5. **Report**: write `report.md`, `report.html`, `ranking.csv` and `signals.json`, and optionally send email or Slack.
+1. **Sources**: collect recent news articles (from RSS feeds or a news API), job posts (from Greenhouse, Lever, or a paid jobs API), and anything from your in-house scraper (any scraper you plug in; the tool runs it and analyzes what it finds). Everything goes into one list, with duplicates and old items removed.
+2. **Fund matching**: check each article and job post against the universe (your list of hedge funds to track) to see which funds it mentions. It recognizes full names, nicknames and near-spellings, and avoids look-alikes such as "two sigma" the statistics term or The Citadel college. If an article mentions several funds, all of them are matched.
+3. **Signal detection**: for each matched article, look for signs the fund needs faster computing, such as hiring FPGA engineers, building GPU clusters, or talking about latency, and save the exact quote as evidence. Right now this uses keyword rules only, which is a limitation: it can miss signals worded differently, and when an article names several funds, it credits all of them even if only one is doing the thing. The code has a slot ready for an AI model with reasoning abilities, which would fix both.
+4. **Scoring**: give each fund a score based on how strong its signals are and how recent they are (newer counts more). The same story repeated across several sites counts once, and ties are always broken the same way.
+5. **Report**: save a weekly report as `report.md`, `report.html`, `ranking.csv` and `signals.json`, and optionally send it by email or Slack.
 
 ```
  RSS / news / jobs / scraper
@@ -135,6 +134,15 @@ From `make run` (demo fixtures, week of 2026-10-19):
 
 - **Signals are hints, not proof.** A job post or press quote suggests a compute bottleneck; it doesn't
   confirm budget, timing or intent. Treat the ranking as a starting point for research and outreach.
+- **Keyword rules have blind spots.** Until an AI model is plugged in, signal detection relies on keyword rules:
+  - **Wrong firm credited:** when an article names several funds, every one gets the signal, even if only one
+    is doing the thing (e.g. "Jump hired a CTO who used to work at Citadel" also credits Citadel).
+  - **Missed signals:** signals worded differently from the rules are not picked up.
+  - **No negation:** a sentence like "we are not hiring FPGA engineers" can still count as a signal.
+  - **Look-alike names:** only a few look-alikes are guarded against (e.g. "two sigma", The Citadel college), so
+    other false matches are possible, and some real mentions can be missed.
+- **Generic headlines can be over-merged.** Duplicate stories are counted once, but two different stories with the
+  same generic headline may be treated as one.
 - **Respect site terms and `robots.txt`.** Only use feeds and APIs you're licensed to use; the fetcher honors
   `robots.txt` and rate limits, but you're responsible for the sources you add.
 - **No personal data beyond public job posts.** The tool tracks firms, not people. Don't add sources that
